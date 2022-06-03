@@ -64,3 +64,4 @@ function boxHandler(e) {
     currentContent.style.maxHeight = 0;
   }
 }
+
