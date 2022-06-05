@@ -88,50 +88,45 @@
                         </div>
                         <div class="main__content-services__block">
                             <div class="services__block-content">
-                                <h2 class="services__block-content__title">Аналитика</h2>
+                                <h2 class="services__block-content__title">Проектирование</h2>
                                 <p class="services__block-content__sub">
-                                    Проводим конкурентный анализ рынка, используем лучшие решения для создания
-                                    первоклассных продуктов.
+                                    Реализуем бизнес-задачи с помощью дружественных пользователю интерфейсов на базе аналитики.
                                 </p>
                                 <button class="services__block-content__btn">Заказать звонок</button>
                             </div>
                         </div>
                         <div class="main__content-services__block">
                             <div class="services__block-content">
-                                <h2 class="services__block-content__title">Аналитика</h2>
+                                <h2 class="services__block-content__title">Дизайн</h2>
                                 <p class="services__block-content__sub">
-                                    Проводим конкурентный анализ рынка, используем лучшие решения для создания
-                                    первоклассных продуктов.
+                                    Создаем лучший пользовательский опыт. Рисуем удобные и понятные интерфейсы, которые работают.
                                 </p>
                                 <button class="services__block-content__btn">Заказать звонок</button>
                             </div>
                         </div>
                         <div class="main__content-services__block">
                             <div class="services__block-content">
-                                <h2 class="services__block-content__title">Аналитика</h2>
+                                <h2 class="services__block-content__title">Разработка</h2>
                                 <p class="services__block-content__sub">
-                                    Проводим конкурентный анализ рынка, используем лучшие решения для создания
-                                    первоклассных продуктов.
+                                    Воплощаем приложение в коде. Пишем чистый и стабильный код, интегрируем его с технологиями заказчика.
                                 </p>
                                 <button class="services__block-content__btn">Заказать звонок</button>
                             </div>
                         </div>
                         <div class="main__content-services__block">
                             <div class="services__block-content">
-                                <h2 class="services__block-content__title">Аналитика</h2>
+                                <h2 class="services__block-content__title">Тестирование</h2>
                                 <p class="services__block-content__sub">
-                                    Проводим конкурентный анализ рынка, используем лучшие решения для создания
-                                    первоклассных продуктов.
+                                    Тестируем сервис на разных устройствах и гарантируем выпуск качественного продукта точно в срок.
                                 </p>
                                 <button class="services__block-content__btn">Заказать звонок</button>
                             </div>
                         </div>
                         <div class="main__content-services__block">
                             <div class="services__block-content">
-                                <h2 class="services__block-content__title">Аналитика</h2>
+                                <h2 class="services__block-content__title">Продвижение</h2>
                                 <p class="services__block-content__sub">
-                                    Проводим конкурентный анализ рынка, используем лучшие решения для создания
-                                    первоклассных продуктов.
+                                    Поддерживаем и улучшаем продукт на основе обратной связи. Тысячи скачиваний и вывод в топы сторов.
                                 </p>
                                 <button class="services__block-content__btn">Заказать звонок</button>
                             </div>
@@ -376,7 +371,7 @@
                     </div>
 
 
-                    <div class="swiper-pagination"></div>
+
                 </div>
             </div>
             <div class="container">
@@ -454,9 +449,7 @@
         </main>
         <footer class="footer">
             <div class="container">
-               
-            <div class="footer__content">
-                
+                <div class="footer__content">
                     <div class="footer__content-logo">
                         <img src="img/logo_app.svg" alt="" class="footer__content-logo__img">
                     </div>
@@ -465,26 +458,45 @@
                         <p class="footer__content-text__tel">+7 (993) 939 32 99</p>
 
                     </div>
-                   
+
                     <div class="footer__content-contacts">
                         <img src="img/Facebook.svg" alt="" class="footer__content-contact">
                         <img src="img/Instagram.svg" alt="" class="footer__content-contact">
                         <img src="img/Youtube.svg" alt="" class="footer__content-contact">
-                        <img src="img/Twitter.svg" alt="" class="footer__content-contact"> 
-                        
+                        <img src="img/Twitter.svg" alt="" class="footer__content-contact">
+
                     </div>
                     <a href="#top">
                         <div class="up__button footer__content-contact">
-                          <img src="img/arrow_up .png" alt="кнопка вверх">
+                            <img src="img/arrow_up .png" alt="кнопка вверх">
                         </div>
-                      </a>
+                    </a>
                 </div>
             </div>
         </footer>
+        <div class="popup-bg">
+            <div class="popup__content">
+                <img class="close-popup" src="img/close.svg" alt="">
+                <div class="popup-bg__title">Обратный звонок</div>
+                <form action="/" class="form__call">
+                    <div class="input-control__call">
+                        <label for="usertel">Ваш телефон</label>
+                        <input id="usertel_call" name="usertel" type="tel" class="input__cell" value=" "
+                            autocomplete="off">
+                    </div>
+                    <div class="input-control__call">
+                        <label for="usertext">Удобное время для звонка</label>
+                        <input id="usertext_call" name="usertext" type="text" class="input__cell" value=" "
+                            autocomplete="off">
+                    </div>
+                        <button type="submit" class="btn__form-cell">Заказать</button>
+                </form>
+            </div>
+        </div>
         <script src="js/swiper-bundle.min.js"></script>
         <script src="js/tabs.js"></script>
-        <script src="js/tabs2.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/modalWindow.js" defer></script>
 </body>
 
 </html>
